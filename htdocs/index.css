@@ -1,0 +1,35 @@
+html { height: 100% }
+body { height: 100% }
+
+#wall {
+    margin-right: 10px;
+    position: relative;
+    //height: 242px;
+}
+
+#wall .cell-4 {
+    float: left;
+    width: 173.75px;
+    height: 242px;
+    opacity: 1;
+    top: 0px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s, opacity 0.5s;
+}
+
+#wall .cell-4-1 {
+    //left: 0px;
+}
+
+#wall .cell-4-2 {
+    //left: 188.75px;
+}
+
+#wall .cell-4-3 {
+    //left: 377.5px;
+}
+
+#wall .cell-4-4 {
+    //left: 566.25px;
+}
